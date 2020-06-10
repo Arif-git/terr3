@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/kaza514/terr3.git'
+                git 'https://github.com/Arif-git/terr3.git'
             }
         }
         stage('TF Plan') {
